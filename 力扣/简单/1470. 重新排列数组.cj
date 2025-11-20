@@ -1,3 +1,4 @@
+// SOlution 1
 class Solution
 {
 
@@ -28,6 +29,48 @@ class Solution
             ans[j] = nums[q]
 
             p ++
+            q ++ 
+        }
+
+
+        ans
+    }
+
+}
+
+
+
+
+// Solution 2
+class Solution
+{
+
+    func
+    shuffle
+    (
+        nums: Array < Int64 >
+        , n: Int64
+    )
+    : Array < Int64 >
+    {
+        let ans: Array < Int64 > = Array( 2 * n, repeat: 0 )
+        var i: Int64 = 0
+        var j: Int64 = 1
+        var q: Int64 = n
+        
+
+        for
+        (
+            p
+            in
+            0..n
+        )
+        {
+            ans[i] = nums[p]
+            ans[j] = nums[q]
+
+            i += 2
+            j += 2
             q ++ 
         }
 
